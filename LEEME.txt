@@ -1,0 +1,21 @@
+INTEGRANTES:
+
+DEYSER ANDRES OROZCO YEPES
+OSMAIDER GARCES TORRES
+Version 1.0
+
+
+--- ACCIONES VERSIÓN 1.0 ---
+
+-> Se pueden administrar las tabla de Categorias, Mensajes, Compras, Productos, Promociones, y Usuarios
+-> Puede un visitante resgistrarse en la AppWeb y mirar nuestro index
+-> Se puede iniciar sesion con un usuario registrado
+-> Se diseño una logica para evitar que un usuario se pueda registrar con el mismo coreo o con el mismo username
+-> Se utizo un estylo para cada api diferente así mismo se dividieron las Apis para mayor organizacion de carpetas
+
+
+link y credenciales para el Admin
+http://localhost/flower-shop/apis/apiadmin/
+User: admin
+Pass: admin_global
+

@@ -1,0 +1,52 @@
+/* MAIN */
+
+main h2{
+    font-size: 3.4rem;
+}
+
+/* LISTADO DE LAS COMRPAS */
+
+.listado-compras{
+    border: 1px solid #ececec;
+    width: 90%;
+    height: auto;
+    overflow-y: auto;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.listado-compras table{
+    width: 100%;
+}
+
+.listado-compras table thead tr,
+.listado-compras table tbody tr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.th-principal{
+    font-size: 1.6rem;
+}
+
+.td-compra{
+    font-weight: 10;
+}
+.th-principal,
+.td-compra{
+    border-bottom: 0.5px solid #ececec;
+    border-right: 0.5px solid #ececec;
+    padding: 1rem 2rem;
+    color: #616161;
+    text-transform: capitalize;
+    text-align: center;
+    width: 20rem;
+}
+
+
+.site-footer{
+    position: absolute;
+    bottom: 0;
+}
+

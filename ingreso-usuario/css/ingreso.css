@@ -1,0 +1,148 @@
+/* CAMBIOS DE ESTILOS DE LA PAGINA PRINCIPAL */
+
+
+
+
+
+/* Registro Usuario */
+
+@media (min-width: 768px) {
+    .field{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.form-registro, 
+.form-compra{
+    width: 90%;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1140px) {
+    .form-registro,
+    .form-compra{
+        width: 70%;
+    }
+}
+
+
+.form-registro fieldset,
+.form-compra fieldset{
+    border: 0.5px solid #4f4f4f;
+    margin-bottom: 2rem;
+}
+
+.form-registro fieldset legend
+.form-compra fieldset legend{
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 500;
+}
+
+.form-registro fieldset label
+.form-compra fieldset label{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .form-registro fieldset,
+    .form-compra fieldset{
+        flex: 0 1 calc(50% - 2rem);
+    }
+}
+input:not([type='submit']),
+textarea,
+select{
+    padding: 1rem;
+    display: block;
+    width: 95%;
+    background: #e1e1e1;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .ingreso{
+        order: 3;
+    }
+
+    .contacto{
+        order: 4;
+    }
+
+    .btn-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1140px) {
+    .btn-registro{
+        justify-content: flex-end;
+    }
+}
+
+
+
+/* LOGIN */
+
+.login{
+    background-image: url(../../img/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10rem;
+}
+
+@media (min-width: 768px) {
+    .login{
+        height: 80vh;
+    }
+}
+
+
+@media (min-width: 1140px) {
+    .login{
+        height: 100vh;
+    }
+}
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.form-login{
+    border: 0.5px solid #4f4f4f;
+    width: 90%;
+    padding: 4rem;
+}
+
+@media (min-width: 768px) {
+    .form-login{
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1140px) {
+    .form-login{
+        width: 30%;
+    }
+}
+
+.btn-login{
+    display: flex;
+    justify-content: center;
+}

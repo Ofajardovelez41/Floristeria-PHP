@@ -1,0 +1,56 @@
+/* MAIN */
+
+main h2{
+    font-size: 3.4rem;
+}
+
+/* LISTADO DE LOS USUARIOS */
+
+.listado-usuarios{
+    border: 1px solid #ececec;
+    width: 90%;
+    height: auto;
+    overflow-y: auto;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.listado-usuarios table{
+    width: 100%;
+}
+
+.listado-usuarios table thead tr,
+.listado-usuarios table tbody tr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.th-principal{
+    font-size: 1.6rem;
+}
+
+.td-user{
+    font-weight: 10;
+}
+.th-principal,
+.td-user{
+    border-bottom: 0.5px solid #ececec;
+    border-right: 0.5px solid #ececec;
+    padding: 1rem 2rem;
+    color: #616161;
+    text-transform: capitalize;
+    text-align: center;
+    width: 22rem;
+}
+
+.sin-cap{
+    text-transform: none;
+}
+
+
+.site-footer{
+    position: absolute;
+    bottom: 0;
+}
+
